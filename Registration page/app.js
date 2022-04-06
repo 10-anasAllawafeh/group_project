@@ -53,8 +53,12 @@ else if (registerPass == "")
 else if (!pwd_expression.test(registerPass))
     alert("Password must contain capital and small letters,numbers and a symbol");
 
+else if (registerPass.length<8 || registerPass.length>32)
+    alert("Password must be 8 charechter minimum and maximum 32");
+
 else if (registerConfPass != registerPass)
     alert("The two passwords doesn't match");
+
 
 else if (select == 0)
     alert("Please Select quiz Type");
