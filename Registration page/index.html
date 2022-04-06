@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" id="registerForm">
+
+        <input type="text" id="userName" placeholder="User name">
+        <input type="email" id="registerEmail" placeholder="Email">
+        <input type="email" id="confirmEmail" placeholder="Confirm Email">
+        <input type="password" id="registerPass" placeholder="Password">
+        <input type="password" id="registerConfPass" placeholder="Confirm Password">
+        <div id="selectDiv">
+            <select name="select" id="select" onchange="selectExam()">
+            <option value="0">Select</option>
+            <option value="1" class="optin1"> HTML Quiz(5min)</option>
+            <option value="2" class="optin2"> CSS Quiz(5min)</option>
+            <option value="3" class="optin3"> JavaScript Quiz(5min)</option>
+            </select>
+        </div>
+        <div id="subdiv"> <a href="../Login Page/index.html" id="sub">Go to Login Page</a></div>
+        <button type="submit" id="submit" value="" placeholder="">SignUp</button>
+        <p>Already have an Account? <a href="../Login Page/index.html" id="a11"> Login Now!</a></p>
+    
+    </form>
+
+    <ul id="ul1"></ul>
+    <ul id="ul2"></ul>
+    <ul id="ul3"></ul>
+    <ul id="ul4"></ul>
+    <ul id="ul5"></ul>
+    <ul id="ul6"></ul>
+    <ul id="ul7"></ul>
+    <ul id="ul8"></ul>
+    <ul id="ul9"></ul>
+    <ul id="ul99"></ul>
+</body>
+<script src="app.js"></script>
+</html>

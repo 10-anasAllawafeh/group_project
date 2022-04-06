@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Result</title>
+</head>
+<body>
+    <div class="jumbotron container" id="JumDiv" >
+        <h1 class="display-4" id="resh1"></h1>
+        <hr class="my-4">
+        <p class="lead" id="resultp1"></p>
+        <p id="resultp2"></p>
+
+      </div>
+    <!-- <h2 id="resultText"></h2> -->
+    <button id="switchToTable" class="btn btn btn-dark btn-lg" onclick="switcher()">Show Results</button>
+    <table class="container table table-striped ">
+        
+        <tbody>
+             <tr><th colspan="2" id="userName"></th>  <td colspan="2" id="finalResult"></td></tr>
+             <tr>
+                <th >Question Number</th>
+                <th >Question</th>
+                <th >Your Answer</th>
+                <th >Correct Answer</th>
+            </tr>
+            <tr>
+                <td id="questionNumber1">1</td>
+                <td id="question1"></td>
+                <td id="yourAnswer1"></td>
+                <td id="CorrectAnswer1"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber2">2</td>
+                <td id="question2"></td>
+                <td id="yourAnswer2"></td>
+                <td id="CorrectAnswer2"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber3">3</td>
+                <td id="question3"></td>
+                <td id="yourAnswer3"></td>
+                <td id="CorrectAnswer3"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber4">4</td>
+                <td id="question4"></td>
+                <td id="yourAnswer4"></td>
+                <td id="CorrectAnswer4"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber5">5</td>
+                <td id="question5"></td>
+                <td id="yourAnswer5"></td>
+                <td id="CorrectAnswer5"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber6">6</td>
+                <td id="question6"></td>
+                <td id="yourAnswer6"></td>
+                <td id="CorrectAnswer6"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber7">7</td>
+                <td id="question7"></td>
+                <td id="yourAnswer7"></td>
+                <td id="CorrectAnswer7"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber8">8</td>
+                <td id="question8"></td>
+                <td id="yourAnswer8"></td>
+                <td id="CorrectAnswer8"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber9">9</td>
+                <td id="question9"></td>
+                <td id="yourAnswer9"></td>
+                <td id="CorrectAnswer9"></td>
+            </tr>
+            <tr>
+                <td id="questionNumber10">10</td>
+                <td id="question10"></td>
+                <td id="yourAnswer10"></td>
+                <td id="CorrectAnswer10"></td>
+            </tr>
+        </tbody>
+      </table>
+      <button class="btn btn btn-dark btn-lg" id="logout"><a href="../index.html">LogOut</a> </button>
+</body>
+<script src="app.js"></script>
+</html>
